@@ -2,6 +2,8 @@
 
 Shared local delivery ledger and Chrome Outlook skill. Python 3.11+ standard library, no network credentials or mail API. Producers retain email content and recipient configuration.
 
+Clone beside Nightly-PR-Report and WER-Daily-Report. Copy config.example.json to config.local.json and set sender_account to the signed-in Outlook account. The test-recipient restriction remains Stolas_In@cyberlink.com. Configuration, runtime state and observed email evidence are local; restore them separately when moving this installation. The installed skill contains this machine's absolute paths; adjust those deliberately when installing elsewhere.
+
 - CLI: `python delivery.py --help`
 - Workflow: [skill/report-delivery/SKILL.md](skill/report-delivery/SKILL.md)
 - Settings: `config.local.json` (verified Outlook account; tests restricted to Stolas only)
