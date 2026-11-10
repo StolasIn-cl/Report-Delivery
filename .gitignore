@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+state/
+evidence/
+backups/
+config.local.json
+test-output/
